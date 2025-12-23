@@ -247,7 +247,114 @@ ScriptsTab:CreateButton({Name="Vfly",Callback=function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/makkurokurosukescript/VFly-gui/refs/heads/main/VFly%20gui",true))()
 end})
 
-ScriptsTab:CreateButton({Name="Tokra",Callback=function()
+ScriptsTab:CreateButton({
+	Name = "Aimbot (FTAP)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/eisyu-tech/aim_bot_MoBA/refs/heads/main/hello.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "onanie",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/nxUFMY16"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Shader",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/p0e1/1/refs/heads/main/SimpleShader.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "K hub(key ftap k hub beta)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/makkurokurosukescript/K-hub-beta/refs/heads/main/.gitignore", true))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Bloody",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-*-V2-62163"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Rurihub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/212happybirthday-debug/rurirurihub/refs/heads/main/Rurihub.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Noobhub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLnoob106/noobhub.free.nopro/refs/heads/main/noobhubnopro.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Sex hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLnoob106/sexhub.free.lol/refs/heads/main/sexhub.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Unknownhub",
+	Callback = function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/Skn3Aa1Q"), true))()
+
+Source: https://cheater.fun/hacks_roblox/7511-fling-things-and-people-script-super-throw-silent-aim-amp-more.html
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "kigahub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLnoob106/Kigahub.free.lol/refs/heads/main/Kiga.lua"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Cosmic (FTAP)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeffepicy/CosmicHub/refs/heads/main/CosmicHub",true))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "Friendly (FTAP)",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Brovaky/Friendly/refs/heads/main/Friendly'))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "animation",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "iyan (FTAP)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jadpy/suki/refs/heads/main/antiscript"))()
+	end
+})
+
+ScriptsTab:CreateButton({
+	Name = "system Broken(FTAP)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+	end
+})
+
+ScriptsTab:CreateButton({Name="Tokra(FTAP)",Callback=function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/sladostrastnik/TokraScript/refs/heads/main/Loader.luau"))()
 end})
 
